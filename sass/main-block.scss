@@ -31,14 +31,35 @@ html, body {
 .main-block {
   background-color: $white;
   padding-left: 40px;
+  padding-right: 40px;
 
   &__heading {
     line-height: 1;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
     color: $red;
     padding-top: 48px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
+  &__news {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  &__article {
+    display: flex;
+    padding-top: 15px;
+  }
+
+  &__text {
+    display: block;
+    width: 20%;
+    margin-left: 20px;
+  }
+
+  &__article-heading {
+    font-weight: 800;
+  }
 }
 
 .uppercase {
