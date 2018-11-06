@@ -43,17 +43,16 @@ html, body {
 }
   &__news {
     display: flex;
-    flex-wrap: wrap;
   }
 
   &__article {
     display: flex;
     padding-top: 15px;
+    padding-right: 41px;
   }
 
   &__text {
     display: block;
-    width: 20%;
     margin-left: 20px;
   }
 
