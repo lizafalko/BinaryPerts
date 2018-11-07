@@ -35,7 +35,6 @@ html, body {
 
   &__heading {
     line-height: 1;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
     color: $red;
     padding-top: 48px;
     padding-bottom: 10px;
@@ -56,17 +55,42 @@ html, body {
     padding-right: 41px;
   }
 
+  &__article-heading {
+    margin-bottom: 10px;
+  }
+
   &__text {
     display: block;
     margin-left: 20px;
     margin-top: -6px;
   }
 
+  &__link {
+    margin-bottom: 16px;
+    max-width: 30%;
+    background-color: $red;
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: $white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
   &__article-heading {
     font-weight: 800;
   }
+
 }
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.text-shadow {
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
