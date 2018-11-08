@@ -1,6 +1,28 @@
-// @media screen and (max-width: 900px) {
-//   .main-block__part {
-//     max-width: 400px;
-//     flex-wrap: wrap;
-//   }
-// }
+@media screen and (max-width: 990px) {
+  .contacts-block__input {
+    width: 600px !important;
+  }
+}
+
+@media screen and (max-width: 708px) {
+  .contacts-block__input {
+    width: 400px !important;
+  }
+
+  .contacts-block__button {
+    width: 70% !important;
+    padding: 20px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .contacts-block__input {
+    width: 200px !important;
+  }
+
+  .contacts-block__button {
+    width: 70% !important;
+    padding: 20px;
+  }
+}

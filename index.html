@@ -78,9 +78,11 @@
         <h2 class="contacts-block__heading text-shadow">Напишите нам:</h2>
         <form class="contacts-block__form">
           <div class="contacts-block__form-info">
-            <input type="email" placeholder="E-mail" />
-            <textarea>Введите своё ообщение...</textarea>
-            <button type="submit">Отправить</button>
+            <input class="contacts-block__input" type="email" placeholder="E-mail" value="E-mail" required/>
+            <textarea class="contacts-block__textarea" placeholder="Введите своё сообщение..." rows="4" cols="7" required>Введите своё сообщение...</textarea>
+            <div class="contacts-block__send">
+              <button class="contacts-block__button uppercase text-shadow" type="submit">Отправить</button>
+            </div>
           </div>
         </form>
       </div>
