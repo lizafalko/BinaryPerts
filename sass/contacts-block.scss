@@ -1,9 +1,40 @@
 .contacts-block {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 26px;
+  padding-left: 40px;
+  padding-bottom: 100px;
+
+  &__info {
+    margin-right: 160px;
+    margin-bottom: 40px;
+  }
 
   &__form-info {
     display: flex;
     flex-direction: column;
+  }
+
+  &__heading {
+    color: $yellow;
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    color: $white;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  &__text--bold {
+    font-weight: 600;
+  }
+
+  &__mail {
+    color: $white;
+  }
+
+  &__skype {
+    color: $red;
   }
 }

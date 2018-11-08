@@ -1,6 +1,6 @@
 .stock-block {
   background-color: $blue;
-  // height: 470px;
+  padding-bottom: 30px;
 
   &__heading {
     line-height: 1;
@@ -17,6 +17,11 @@
   }
 
   &__img {
-    padding: 40px;
+    margin: 40px;
+    transition: .3s ease;
+  }
+
+  &__img:hover {
+    transform: scale(1.05);
   }
 }
