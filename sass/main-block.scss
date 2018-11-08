@@ -8,45 +8,31 @@ html, body {
   font-family: 'Arial', sans-serif;
 }
 
-.header-block {
-  display: flex;
-  align-self: center;
-  align-items: center;
-  margin-top: 68px;
-  margin-left: 40px;
-  margin-bottom: 44px;
-  flex-wrap: wrap;
-
-  &__heading {
-    color: $white;
-    font-weight: normal;
-  }
-
-  &__img {
-    margin-right: 72px;
-    margin-bottom: 16px;
-  }
-}
-
 .main-block {
+
+  &__container {
+    background-color: $white;
+    padding-top: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
   &__heading {
     line-height: 1;
     color: $red;
-    padding-top: 48px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
   &__news {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    border-top: 1px solid black;
+    padding-right: 20px;
   }
 
   &__part {
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
-    max-width: 400px;
+    max-width: 380px;
   }
 
   &__article {
@@ -75,6 +61,11 @@ html, body {
     font-size: 14px;
     font-weight: bold;
     margin-top: 20px;
+    transition: .3s ease;
+  }
+
+  &__link:hover {
+    background-color: $dark-red;
   }
 
   &__article-heading {

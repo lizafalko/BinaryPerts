@@ -1,19 +1,42 @@
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
   .contacts-block__input {
     width: 600px !important;
   }
 }
 
-@media screen and (max-width: 708px) {
+@media screen and (max-width: 1120px) {
   .contacts-block__input {
-    width: 400px !important;
+    width: 500px !important;
   }
 
   .contacts-block__button {
     width: 50% !important;
     padding: 20px;
   }
+}
 
+@media screen and (max-width: 1010px) {
+  .contacts-block__input {
+    width: 400px !important;
+  }
+
+  .stock-block__pictures {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .contacts-block__input {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 820x) {
+  .contacts-block__input {
+    width: 200px !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -22,7 +45,7 @@
   }
 
   .contacts-block__button {
-    width: 70% !important;
+    width: 100% !important;
     padding: 20px;
   }
 }
