@@ -1,0 +1,22 @@
+.stock-block {
+  background-color: $blue;
+  // height: 470px;
+
+  &__heading {
+    line-height: 1;
+    color: $red;
+    padding-top: 48px;
+    margin-left: 40px;
+  }
+
+  &__pictures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+  }
+
+  &__img {
+    padding: 40px;
+  }
+}

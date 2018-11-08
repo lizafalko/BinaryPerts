@@ -1,0 +1,9 @@
+.contacts-block {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__form-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
