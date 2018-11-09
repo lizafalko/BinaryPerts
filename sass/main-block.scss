@@ -62,6 +62,7 @@ html, body {
     font-weight: bold;
     margin-top: 20px;
     transition: .3s ease;
+    box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
   }
 
   &__link:hover {
@@ -80,4 +81,8 @@ html, body {
 
 .text-shadow {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.hr {
+  width: 100%;
 }
